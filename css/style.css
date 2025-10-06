@@ -1,0 +1,62 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* start header home section */
+
+.header-home{
+    background-image: url(../img/task2_background_imge.jpg);
+    
+    height: 700px;
+    background-size: cover;
+}
+
+.header-home h2{
+    background-color:hsl(161.35deg 29.84% 48.63%);
+    margin-top: 150px;
+    width: 80%;
+    height: 400px;
+    padding-left: 50px;
+    padding-top: 35px;
+    font-size: 40px;
+    line-height: 2;
+    border-radius: 35px;
+    color: white;
+}
+@media(max-width:575px){
+    .header-home h2{
+        font-size: 27px;
+    }
+
+}
+/* end header home section */
+
+/* start touch home section */
+.touch-home{
+    background: url(../img/task1img5.jpg) , url(../img/task1img4.jpg);
+    width: 100%;
+    height: 750px;
+    background-size: cover;
+    }
+@media (max-width:992px){
+    .touch-home{
+        height: fit-content;
+        padding-bottom: 30px;
+    }
+}
+/* end touch home section */
+
+/* start footer home section */
+.footer-home{
+    background-color: hsl(167.22deg 78.26% 27.06%);
+    height: 600px;
+    border-radius: 150px 150px 0px 0px;
+}
+
+@media (max-width:575px){
+    .footer-home{
+        height: fit-content;
+    }
+}
+/* end footer home section */
